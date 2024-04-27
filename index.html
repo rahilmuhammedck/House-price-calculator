@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House Price Prediction</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>House Price Prediction</h1>
+  <div class="form-container">
+    <label for="location">Location:</label>
+    <input type="text" id="location" placeholder="Enter location">
+
+    <label for="squareFootage">Square Footage:</label>
+    <input type="number" id="squareFootage" placeholder="Enter square footage">
+
+    <label for="bedrooms">Bedrooms:</label>
+    <input type="number" id="bedrooms" placeholder="Enter number of bedrooms">
+
+    <label for="bathrooms">Bathrooms:</label>
+    <input type="number" id="bathrooms" placeholder="Enter number of bathrooms">
+
+    <label for="yearBuilt">Year Built:</label>
+    <input type="number" id="yearBuilt" placeholder="Enter year built">
+
+    <button onclick="predictPrice()">Predict Price</button>
+  </div>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
