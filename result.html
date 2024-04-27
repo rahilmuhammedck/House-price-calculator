@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House Price Prediction Result</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="result-container">
+    <h1>House Price Prediction Result</h1>
+    <p id="predictedPrice"></p>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const predictedPrice = urlParams.get('predictedPrice');
+    document.getElementById('predictedPrice').innerText = `The predicted price for the house is: $${predictedPrice}`;
+  </script>
+</body>
+</html>
