@@ -4,22 +4,27 @@ body {
   padding: 0;
 }
 
-/* Styling for index.html */
-#index-container {
-  max-width: 600px;
-  margin: 100px auto;
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
   text-align: center;
 }
 
-#index-container h1 {
+h1 {
   margin-top: 0;
 }
 
-#index-container input[type="text"],
-#index-container input[type="number"] {
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
@@ -27,35 +32,16 @@ body {
   border-radius: 3px;
 }
 
-#index-container button {
-  display: inline-block;
-  padding: 10px 20px;
+button {
+  width: 100%;
+  padding: 10px;
   background-color: #007bff;
   color: #fff;
-  text-decoration: none;
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
 
-#index-container button:hover {
+button:hover {
   background-color: #0056b3;
-}
-
-/* Styling for result.html */
-.result-container {
-  max-width: 600px;
-  margin: 100px auto;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 5px;
-  text-align: center;
-}
-
-.result-container h1 {
-  margin-top: 0;
-}
-
-.result-container p {
-  margin-bottom: 20px;
 }
