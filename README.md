@@ -28,8 +28,5 @@ This web application allows users to predict house prices based on various facto
 
 ## Credits
 
-This project is created by [Your Name].
+This project is created by [Muhammed Rahil CK].
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
