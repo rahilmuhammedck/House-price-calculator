@@ -6,9 +6,9 @@
   <title>House Price Prediction</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-image: url('main_background.jpg'); background-size: cover;">
-  <h1>House Price Prediction</h1>
+<body style="background-image: url('background.jpg'); background-size: cover;">
   <div class="form-container">
+    <h1>House Price Prediction</h1>
     <label for="location">Location:</label>
     <input type="text" id="location" placeholder="Enter location">
 
@@ -23,6 +23,18 @@
 
     <label for="yearBuilt">Year Built:</label>
     <input type="number" id="yearBuilt" placeholder="Enter year built">
+
+    <label for="carPorch">Car Porch (Yes/No):</label>
+    <select id="carPorch">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <label for="garden">Garden (Yes/No):</label>
+    <select id="garden">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
 
     <button onclick="predictPrice()">Predict Price</button>
   </div>
