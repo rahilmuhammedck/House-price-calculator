@@ -8,7 +8,7 @@ function predictPrice() {
   const garden = document.getElementById('garden').value;
 
   // Perform prediction calculation here (dummy calculation)
-  let predictedPrice = squareFootage * 100 + bedrooms * 5000 + bathrooms * 3000 - (2024 - yearBuilt) * 1000;
+  let predictedPrice = squareFootage * 8000 + bedrooms * 50000 + bathrooms * 30000 - (2024 - yearBuilt) * 80000;
 
   // Adjust price based on car porch and garden availability
   if (carPorch === 'yes') {
