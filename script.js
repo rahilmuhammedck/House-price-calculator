@@ -7,15 +7,15 @@ function predictPrice() {
   const carPorch = document.getElementById('carPorch').value;
   const garden = document.getElementById('garden').value;
 
-  // Perform prediction calculation here (dummy calculation)
-  let predictedPrice = squareFootage * 8000 + bedrooms * 50000 + bathrooms * 30000 - (2024 - yearBuilt) * 80000;
+  // Perform prediction calculation here ()
+  let predictedPrice = squareFootage * 800 + bedrooms * 5000 + bathrooms * 3000 - (2024 - yearBuilt) * 8000;
 
   // Adjust price based on car porch and garden availability
   if (carPorch === 'yes') {
-    predictedPrice += 5000; // Add $5000 for car porch
+    predictedPrice += 50000; // Add $5000 for car porch
   }
   if (garden === 'yes') {
-    predictedPrice += 3000; // Add $3000 for garden
+    predictedPrice += 30000; // Add $3000 for garden
   }
 
   // Redirect to result page with predicted price as query parameter
